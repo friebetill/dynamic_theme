@@ -11,7 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: '^0.5.0'
+  shared_preferences:
+    git:
+      url: git@github.com:wouterhardeman/plugins.git
+      ref: shared-preferences-refresh-cache
+      path: packages/shared_preferences
 
 dev_dependencies:
   flutter_test:
